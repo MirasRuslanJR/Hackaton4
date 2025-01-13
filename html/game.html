@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Один дома: Подарки санты</title>
+    <link rel="stylesheet" href="../styles/game.css" />
+  </head>
+  <body>
+    <a href="/html/index.html">На главную страницу</a>
+    <h1>Правила игры:</h1>
+    <li>Чтобы выиграть, вы должны набрать 50 очков.</li>
+    <li>
+      Если потеряете 5 подарков, игра закончится и придется начать заново.
+    </li>
+    <li>A - Налево, D - направо</li>
+    <div class="game-container">
+      <div id="gameTitle" class="game-title">Один дома: Подарки санты</div>
+      <div id="kevin" class="kevin">
+        <img src="../img/image-removebg-preview (8).png" alt="Кевин" />
+      </div>
+      <p id="score">Очки: 0</p>
+      <p id="missedGifts">Пропущенно: 0</p>
+    </div>
+    <div class="controls">
+      <button id="leftBtn">⬅️</button>
+      <button id="rightBtn">➡️</button>
+    </div>
+    <script src="../scripts/game.js"></script>
+  </body>
+</html>
